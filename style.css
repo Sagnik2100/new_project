@@ -1,0 +1,22 @@
+body{
+    display:flex; 
+    margin:24px;
+    flex-direction:column;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.links{
+    display:flex;
+    gap:20px;
+}
+.website-info{
+    display:flex;
+    justify-content: space-between;
+}
+.text2{
+    display:flex;
+    justify-content: center;
+    font-weight:bold;
+}
