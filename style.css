@@ -2,10 +2,17 @@ body{
     display:flex; 
     margin:24px;
     flex-direction:column;
+    margin:0;
 }
 .header{
     display:flex;
     justify-content: space-between;
+    background-color:#1f2937;
+    color:white;
+    padding:50px;
+}
+.text0{
+    font-weight: bold;
 }
 .links{
     display:flex;
@@ -14,9 +21,53 @@ body{
 .website-info{
     display:flex;
     justify-content: space-between;
+    padding:50px;
+    background-color:#1f2937;
+    color:white;
+    gap:55px;
 }
 .text2{
     display:flex;
     justify-content: center;
     font-weight:bold;
+    padding:50px;
+}
+.boxes{
+    display:flex;
+    justify-content: center;
+    gap:14px;
+    padding:50px;
+}
+.mid-section2{
+    display:flex;
+    justify-content: center;
+    font-size:25px;
+    padding:50px;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+.text{
+    display:flex;
+    gap:25px;
+    flex-direction:column;
+}
+.boxes{
+    display:flex;
+    gap:55px;
+}
+.mid-section3{
+    display:flex;
+    flex-direction: column;
+    background-color:#3882F6;
+    margin:100px;
+    text-align: center;
+    border-radius:5px;
+    color:white;
+}
+.footer{
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    color:#e5e7eb;
+    padding:20px;
 }
